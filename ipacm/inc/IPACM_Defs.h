@@ -40,6 +40,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef IPA_CM_DEFS_H
 #define IPA_CM_DEFS_H
 
+#include <bits/in_addr.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/msm_ipa.h>
