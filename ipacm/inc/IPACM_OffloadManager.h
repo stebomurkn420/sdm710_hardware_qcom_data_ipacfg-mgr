@@ -110,6 +110,8 @@ private:
 
 	int resetTetherStats(const char *upstream_name);
 
+	int push_iface_up(const char *if_name, bool upstream);
+
 	static const char *DEVICE_NAME;
 
 	/* cache the add_downstream events if netdev is not ready */

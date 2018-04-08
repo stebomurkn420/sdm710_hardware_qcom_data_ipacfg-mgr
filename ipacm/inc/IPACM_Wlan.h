@@ -234,6 +234,9 @@ private:
 
 	void handle_SCC_MCC_switch(ipa_ip_type);
 
+	/*query wlan-clients */
+	int ipa_query_wlan_client();
+
 };
 
 
